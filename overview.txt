@@ -1,0 +1,8 @@
+Golf Course Auto Booking
+- Enter in the golf course you want and the timeframe you want + how many people you want
+    - Put in your credit card if its required
+- Would automatically book a tee time at this time 
+- Input a time frame and zip code and it will auto-book if no credit card required, either way will alert you
+- Use case 1: scoop up cancellations 
+    - an LLM agent to do this
+    - Webcrawl and basically scroll on the page by itself and take in time data, convert time data into integer and compare to user-inputted time, if it matches then go ahead and click through to book the tee time
