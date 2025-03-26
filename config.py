@@ -1,8 +1,11 @@
 # config.py
+import os
+from dotenv import load_dotenv # type: ignore
+load_dotenv()
 
 # Golf course login details (update with your actual credentials)
-USERNAME = "prithvidixit05@gmail.com"
-PASSWORD = "CrystalPD123$$"
+USERNAME = os.getenv("USERNAME")
+PASSWORD = os.getenv("PASSWORD")
 
 # Preferred tee times (24-hour format)
 PREFERRED_TIMES = ["7:09 AM", "9:00 AM", "3:30 PM"]
